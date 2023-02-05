@@ -9,3 +9,8 @@
    ```
    https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/manifest.json
    ```
+
+## Plugins
+
+### [One Pace](https://github.com/jwueller/jellyfin-plugin-onepace)
+> Metadata and cover art integration for the [One Pace](https://onepace.net/) project

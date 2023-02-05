@@ -1,2 +1,20 @@
 [
+    {
+        "guid": "1c0bf35e-3df4-47cc-8a4e-e3865de60d2f",
+        "name": "One Pace",
+        "description": "This integration is experimental because the One Pace project currently does not expose metadata in a stable manner, so we have to rely on scraping data from the project website instead. Therefore, medatata retrieval might break spontaneously if the website changes.",
+        "overview": "Metadata and cover art integration for the One Pace project",
+        "owner": "jwueller",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "1.0.0.0 - initial release",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.0.0.zip",
+                "checksum": "b98601d9ac3ee8bfe7daa113b5b1cc2f",
+                "timestamp": "2023-02-05T22:10:26Z"
+            }
+        ]
+    }
 ]
