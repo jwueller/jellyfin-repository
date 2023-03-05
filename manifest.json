@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.0.2.0",
+                "changelog": "1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.2.0.zip",
+                "checksum": "4a3f6c69f5d508d497283186db798188",
+                "timestamp": "2023-03-05T01:52:52Z"
+            },
+            {
                 "version": "1.0.1.0",
                 "changelog": "1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
                 "targetAbi": "10.8.0.0",
