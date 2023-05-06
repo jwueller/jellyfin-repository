@@ -2,11 +2,19 @@
     {
         "guid": "1c0bf35e-3df4-47cc-8a4e-e3865de60d2f",
         "name": "One Pace",
-        "description": "This integration is experimental because the One Pace project currently does not expose metadata in a stable manner, so we have to rely on scraping data from the project website instead. Therefore, medatata retrieval might break spontaneously if the website changes.",
+        "description": "Please report a bugs at https://github.com/jwueller/jellyfin-plugin-onepace",
         "overview": "Metadata and cover art integration for the One Pace project",
         "owner": "jwueller",
         "category": "Metadata",
         "versions": [
+            {
+                "version": "1.1.0.0",
+                "changelog": "1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.1.0.0.zip",
+                "checksum": "7e7fac0901ccf3358d84fc7782341578",
+                "timestamp": "2023-05-06T19:18:06Z"
+            },
             {
                 "version": "1.0.2.0",
                 "changelog": "1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
