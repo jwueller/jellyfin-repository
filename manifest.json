@@ -2,7 +2,7 @@
     {
         "guid": "1c0bf35e-3df4-47cc-8a4e-e3865de60d2f",
         "name": "One Pace",
-        "description": "Please report a bugs at https://github.com/jwueller/jellyfin-plugin-onepace",
+        "description": "Please report bugs at https://github.com/jwueller/jellyfin-plugin-onepace",
         "overview": "Metadata and cover art integration for the One Pace project",
         "owner": "jwueller",
         "category": "Metadata",
