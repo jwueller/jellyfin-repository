@@ -8,16 +8,24 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.3.2.0",
+                "changelog": "Upgrade to API 2.6.3 and add CRC-32 filename matching",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.2.0.zip",
+                "checksum": "d00f561d618042c0582b7ecf3a22ce2b",
+                "timestamp": "2023-08-02T18:26:02Z"
+            },
+            {
                 "version": "1.3.1.0",
-                "changelog": "1.3.1.0 - add more logging to identify issues more easily\n1.3.0.0 - upgrade to API 2.6.0\n1.2.1.0 - fix arc identification\n1.2.0.0 - incorporate API changes\n1.1.1.0 - fix matching inefficiencies\n1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Add more logging to identify issues more easily",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.1.0.zip",
-                "checksum": "c3b33b398b771050fd3e757377d597d1",
-                "timestamp": "2023-07-03T10:56:06Z"
+                "checksum": "4ebe3186f11bb43e6e206d55462438c5",
+                "timestamp": "2023-07-16T17:12:02Z"
             },
             {
                 "version": "1.3.0.0",
-                "changelog": "1.3.0.0 - upgrade to API 2.6.0\n1.2.1.0 - fix arc identification\n1.2.0.0 - incorporate API changes\n1.1.1.0 - fix matching inefficiencies\n1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Upgrade to API 2.6.0",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.0.0.zip",
                 "checksum": "747364dc0dcebbd54ecabff443a18f3b",
@@ -25,7 +33,7 @@
             },
             {
                 "version": "1.2.1.0",
-                "changelog": "1.2.1.0 - fix arc identification\n1.2.0.0 - incorporate API changes\n1.1.1.0 - fix matching inefficiencies\n1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Fix arc identification",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.2.1.0.zip",
                 "checksum": "939f07912c2608ff76ae7ba8f6880ca2",
@@ -33,7 +41,7 @@
             },
             {
                 "version": "1.2.0.0",
-                "changelog": "1.2.0.0 - incorporate API changes\n1.1.1.0 - fix matching inefficiencies\n1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Incorporate API changes",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.2.0.0.zip",
                 "checksum": "0b0049c814449666cdc74cfe7dc1f51e",
@@ -41,7 +49,7 @@
             },
             {
                 "version": "1.1.1.0",
-                "changelog": "1.1.1.0 - fix matching inefficiencies\n1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Fix matching inefficiencies",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.1.1.0.zip",
                 "checksum": "13b430539d7759d0cafacccfbaebbd2a",
@@ -49,7 +57,7 @@
             },
             {
                 "version": "1.1.0.0",
-                "changelog": "1.1.0.0 - migrate to GraphQL data source\n1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Migrate to GraphQL data source",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.1.0.0.zip",
                 "checksum": "7e7fac0901ccf3358d84fc7782341578",
@@ -57,7 +65,7 @@
             },
             {
                 "version": "1.0.2.0",
-                "changelog": "1.0.2.0 - refine arc matching to include chapter ranges\n1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Refine arc matching to include chapter ranges",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.2.0.zip",
                 "checksum": "4a3f6c69f5d508d497283186db798188",
@@ -65,7 +73,7 @@
             },
             {
                 "version": "1.0.1.0",
-                "changelog": "1.0.1.0 - more sophisticated URL detection\n1.0.0.0 - initial release",
+                "changelog": "Make URL detection more sophisticated",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.1.0.zip",
                 "checksum": "a31b6063c9104d591de78e5bed2bd2ae",
@@ -73,7 +81,7 @@
             },
             {
                 "version": "1.0.0.0",
-                "changelog": "1.0.0.0 - initial release",
+                "changelog": "Initial release",
                 "targetAbi": "10.8.0.0",
                 "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.0.0.zip",
                 "checksum": "b98601d9ac3ee8bfe7daa113b5b1cc2f",
