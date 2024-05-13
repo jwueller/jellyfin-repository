@@ -8,6 +8,14 @@
         "category": "Metadata",
         "versions": [
             {
+                "version": "1.5.1.0",
+                "changelog": "Adapt to breaking changes by Jellyfin 10.9.x",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.5.1.0.zip",
+                "checksum": "9a72215b46879c925f5779b58c42e9f4",
+                "timestamp": "2024-05-13T19:46:28Z"
+            },
+            {
                 "version": "1.4.0.0",
                 "changelog": "Fix some arcs getting incorrectly matched when the title is part of another arc title",
                 "targetAbi": "10.8.0.0",
